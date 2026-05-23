@@ -334,6 +334,6 @@ body {
 }
 
 body {
-  background: red;
+  background: red !important;
 }
 

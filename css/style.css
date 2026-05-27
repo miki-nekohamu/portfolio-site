@@ -296,14 +296,10 @@ body {
 }
 
 .portfolio .detail-img {
-<<<<<<< HEAD
+
   width: 300%;
   max-width: 100px;
   height: auto;
-=======
-  width: 300px;
-  max-width: 100%;
->>>>>>> 20aa58889e6f73947588c29a6ddecb863b3df3cb
   display: block;
   margin: 20px auto;
   border-radius: 12px;
@@ -360,8 +356,5 @@ body {
 
 
 
-=======
 
-  
->>>>>>> 20aa58889e6f73947588c29a6ddecb863b3df3cb
 

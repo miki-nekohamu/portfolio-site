@@ -153,13 +153,6 @@ nav a:hover {
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
-.detail-img{
-  width: 80%;
-  max-width: 500px;
-  border-radius: 10px;
-  margin: 20px 0;
-}
-
 .skill-list li{
   display:inline-block;
   margin:10px;
@@ -297,8 +290,8 @@ body {
 
 .portfolio .detail-img {
 
-  width: 300%;
-  max-width: 100px;
+  width: 80%;
+  max-width: 500px;
   height: auto;
   display: block;
   margin: 20px auto;

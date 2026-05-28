@@ -318,6 +318,55 @@ body {
   border-radius: 10px;
 }
 
+/* お問い合わせフォーム */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+form label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: 1px solid #ffb6c1;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 15px;
+  background: #fff9fb;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical;
+  font-family: inherit;
+}
+
+form button {
+  background: #ffb6c1;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: hotpink;
+}
+
 
 @media (max-width: 768px) {
   nav {

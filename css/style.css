@@ -325,7 +325,7 @@ body {
   border-radius: 10px;
 }
 
-<<<<<<< HEAD
+
 @media (max-width: 480px) {
   nav {
     display: flex;
@@ -333,7 +333,12 @@ body {
     align-items: center;
     gap: 10px;
   }
+  nav a {
+    display: block; /* ← これを追加！ */
+    width: fit-content;
+  }
 }
+
 
 @media (max-width: 480px) {
   main {
